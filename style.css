@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+* {
+    /* outline: 1px lightcoral solid; */
+    margin: 0px;
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0px;
+}
+
+p {
+    height 10px
+}
+
+#intro_text {
+    margin: 20px;
+}
+
+.main { 
+    flex: 3 1 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: rgb(209, 209, 209);;
+    height: 33%;
+    display: flex;
+    align-items: end;
+}
+
+.side {
+    display: flex;
+    background-image: url(side.jpg);
+    background-size: cover;
+    flex: 2 1 0;
+    align-items: center;
+    height: 900px;
+}
+
+#leaves {
+    object-fit: cover;
+}
+
+.create {
+    height: 20px;
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.footer {
+    background-color: rgb(209, 209, 209);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 33%;
+}
+
+.already {
+    height: 60px;
+}
+
+.intro {
+    60px;
+}
+
+.logo {
+    flex:auto;
+    width: 200px;
+    height: auto;
+    background: cover;
+}
+
+.banner {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+input {
+    display: block;
+    width: 150px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    width: 150px;
+    margin: 10px;
+    font-size: small;
+}
+input {
+    margin-right: 20px;
+}
+
+.form {
+    height: 34%;
+}
+
+h2 {
+    margin: 15px;
+}
+
+#inputs {
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color: blue;
+}
